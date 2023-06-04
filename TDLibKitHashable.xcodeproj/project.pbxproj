@@ -11,6 +11,14 @@
 		DFC071A22A2BCF34007FD324 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC071A12A2BCF34007FD324 /* ContentView.swift */; };
 		DFC071A42A2BCF36007FD324 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC071A32A2BCF36007FD324 /* Assets.xcassets */; };
 		DFC071A72A2BCF36007FD324 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DFC071A62A2BCF36007FD324 /* Preview Assets.xcassets */; };
+		DFC071AF2A2BCFC5007FD324 /* TDLibKit in Frameworks */ = {isa = PBXBuildFile; productRef = DFC071AE2A2BCFC5007FD324 /* TDLibKit */; };
+		DFC071B12A2BD4B6007FD324 /* TdApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC071B02A2BD4B6007FD324 /* TdApi.swift */; };
+		DFC071B32A2BD4EC007FD324 /* Secret.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC071B22A2BD4EC007FD324 /* Secret.swift */; };
+		DFC071B52A2BD5D6007FD324 /* NotificationCenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC071B42A2BD5D6007FD324 /* NotificationCenter.swift */; };
+		DFC071B82A2BD61D007FD324 /* NotificationName.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC071B72A2BD61D007FD324 /* NotificationName.swift */; };
+		DFC071BA2A2BD812007FD324 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC071B92A2BD812007FD324 /* Task.swift */; };
+		DFC071BD2A2CD358007FD324 /* Chat.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC071BC2A2CD358007FD324 /* Chat.swift */; };
+		DFC071BF2A2CD6AC007FD324 /* Sequence.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFC071BE2A2CD6AC007FD324 /* Sequence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +27,13 @@
 		DFC071A12A2BCF34007FD324 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DFC071A32A2BCF36007FD324 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DFC071A62A2BCF36007FD324 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DFC071B02A2BD4B6007FD324 /* TdApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TdApi.swift; sourceTree = "<group>"; };
+		DFC071B22A2BD4EC007FD324 /* Secret.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Secret.swift; sourceTree = "<group>"; };
+		DFC071B42A2BD5D6007FD324 /* NotificationCenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationCenter.swift; sourceTree = "<group>"; };
+		DFC071B72A2BD61D007FD324 /* NotificationName.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationName.swift; sourceTree = "<group>"; };
+		DFC071B92A2BD812007FD324 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		DFC071BC2A2CD358007FD324 /* Chat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chat.swift; sourceTree = "<group>"; };
+		DFC071BE2A2CD6AC007FD324 /* Sequence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sequence.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +41,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC071AF2A2BCFC5007FD324 /* TDLibKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,6 +67,8 @@
 		DFC0719E2A2BCF34007FD324 /* TDLibKitHashable */ = {
 			isa = PBXGroup;
 			children = (
+				DFC071BB2A2CD350007FD324 /* Hashable */,
+				DFC071B62A2BD5E4007FD324 /* Other */,
 				DFC0719F2A2BCF34007FD324 /* TDLibKitHashableApp.swift */,
 				DFC071A12A2BCF34007FD324 /* ContentView.swift */,
 				DFC071A32A2BCF36007FD324 /* Assets.xcassets */,
@@ -65,6 +83,27 @@
 				DFC071A62A2BCF36007FD324 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DFC071B62A2BD5E4007FD324 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				DFC071B02A2BD4B6007FD324 /* TdApi.swift */,
+				DFC071B22A2BD4EC007FD324 /* Secret.swift */,
+				DFC071B42A2BD5D6007FD324 /* NotificationCenter.swift */,
+				DFC071B72A2BD61D007FD324 /* NotificationName.swift */,
+				DFC071B92A2BD812007FD324 /* Task.swift */,
+				DFC071BE2A2CD6AC007FD324 /* Sequence.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		DFC071BB2A2CD350007FD324 /* Hashable */ = {
+			isa = PBXGroup;
+			children = (
+				DFC071BC2A2CD358007FD324 /* Chat.swift */,
+			);
+			path = Hashable;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +122,9 @@
 			dependencies = (
 			);
 			name = TDLibKitHashable;
+			packageProductDependencies = (
+				DFC071AE2A2BCFC5007FD324 /* TDLibKit */,
+			);
 			productName = TDLibKitHashable;
 			productReference = DFC0719C2A2BCF34007FD324 /* TDLibKitHashable.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +153,9 @@
 				Base,
 			);
 			mainGroup = DFC071932A2BCF34007FD324;
+			packageReferences = (
+				DFC071AD2A2BCFC5007FD324 /* XCRemoteSwiftPackageReference "TDLibKit" */,
+			);
 			productRefGroup = DFC0719D2A2BCF34007FD324 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,7 +182,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DFC071B12A2BD4B6007FD324 /* TdApi.swift in Sources */,
+				DFC071B82A2BD61D007FD324 /* NotificationName.swift in Sources */,
+				DFC071BF2A2CD6AC007FD324 /* Sequence.swift in Sources */,
+				DFC071B32A2BD4EC007FD324 /* Secret.swift in Sources */,
+				DFC071B52A2BD5D6007FD324 /* NotificationCenter.swift in Sources */,
 				DFC071A22A2BCF34007FD324 /* ContentView.swift in Sources */,
+				DFC071BD2A2CD358007FD324 /* Chat.swift in Sources */,
+				DFC071BA2A2BD812007FD324 /* Task.swift in Sources */,
 				DFC071A02A2BCF34007FD324 /* TDLibKitHashableApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,6 +391,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DFC071AD2A2BCFC5007FD324 /* XCRemoteSwiftPackageReference "TDLibKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/levochkaa/TDLibKit";
+			requirement = {
+				branch = "hashable-identifiable";
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DFC071AE2A2BCFC5007FD324 /* TDLibKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DFC071AD2A2BCFC5007FD324 /* XCRemoteSwiftPackageReference "TDLibKit" */;
+			productName = TDLibKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DFC071942A2BCF34007FD324 /* Project object */;
 }
